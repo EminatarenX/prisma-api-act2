@@ -34,8 +34,8 @@ para poder ver y editar el codigo de este proyecto necesitamos un entorno de des
 
 # Comprobar funcionamiento, ( Consutas GET )
 
-Despues de ejecutar npm run dev, en la consola deberia aparecer un mensaje diciendo: " servidor corriendo en el puerto 4000 ".
-Para verificar su funcionaiento ingrese a http://localhost:4000/api/clientes dentro de este enlace podra ver los siguentes datos:
+Despues de ejecutar npm run dev, en la consola deberia aparecer un mensaje diciendo: ```servidor corriendo en el puerto 4000 ```.
+Para verificar su funcionaiento ingrese a``` http://localhost:4000/api/clientes``` dentro de este enlace podra ver los siguentes datos:
 ```json
 {
     "clientes": [
