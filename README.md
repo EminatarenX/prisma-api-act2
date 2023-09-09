@@ -13,7 +13,7 @@ npm install
 ```
 para instalar todas las dependencias que esten dentro del package json para que el programa funcione correctamente.
 
-Despues tenemos que agregar un archivo .env en la raiz del proyecto con una variable de entorno llamada DATABASE_URL, al que el valor de esta es una base de datos de mysql en la nube:
+Despues tenemos que agregar un archivo .env en la raiz del proyecto con una variable de entorno llamada DATABASE_URL, el valor de esta url es de una base de datos de mysql en la nube:
 ```.dotenv
 DATABASE_URL="mysql://root:ckfTON5f436ZZ66OVVzT@containers-us-west-65.railway.app:7642/act2"
 ```
