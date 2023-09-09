@@ -81,6 +81,9 @@ const encontrarCliente = async (req, res) => {
                 id : Number(id)
             }
         })
+
+        if(!cliente) return res.status(400).json({msg: "El cliente no existe"})
+        
         return res.status(200).json({cliente})
     } catch (error) {
      console.log(error)   
